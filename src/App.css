@@ -79,8 +79,10 @@
     font-weight: 300;
     margin: 0 10px 20px 10px;
     cursor: pointer;
+}
 
-
+.answer:hover{
+    background: mediumblue;
 }
 
 .pyramid{
