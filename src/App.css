@@ -2,6 +2,8 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    /* direction: rtl; */
+
 }
 
 .App {
@@ -81,8 +83,40 @@
     cursor: pointer;
 }
 
-.answer:hover{
+.answer:hover, .answer.active{
     background: mediumblue;
+}
+
+.answer.wrong {
+    animation: wrong 3s ease forwards;
+}
+
+@keyframes wrong {
+    0%, 22%, 42% {
+        background: mediumblue;
+    }
+    20%, 40%, 60% {
+        background: linear-gradient(#0e0124, #22074d);
+    }
+    62%, 100% {
+        background: crimson;
+    }
+
+}
+.answer.correct {
+    animation: correct 3s ease forwards;
+}
+
+@keyframes correct {
+    0%, 22%, 42% {
+        background: mediumblue;
+    }
+    20%, 40%, 60% {
+        background: linear-gradient(#0e0124, #22074d);
+    }
+    62%, 100% {
+        background: green;
+    }
 }
 
 .pyramid{
@@ -103,7 +137,6 @@
     align-items: center;
     padding: 5px;
     border-radius: 5px;
-
 }
 
 .money-list-item.active{
@@ -114,11 +147,87 @@
     font-size: 18px;
     font-weight: 100;
     width: 30%;
-
 }
 
 .money-list-item-amount{
     font-size: 20px;
     font-weight: 300;
+    /* direction: rtl; */
+}
+
+.end-game{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 100px;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.end-text {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.start {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    direction: rtl;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.start-input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius:5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.start-input:focus {
+    outline: none;
+}
+
+.start-btn{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.end-btn {
+    width: 250px;
+    height: 30px;
+    margin: auto;
+    justify-self: center;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight:500;
+    margin-top: 100px;
 
 }
