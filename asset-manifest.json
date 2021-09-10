@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Millionaire/static/css/main.dbf421c2.chunk.css",
+    "main.js": "/Millionaire/static/js/main.69bb6a8a.chunk.js",
+    "main.js.map": "/Millionaire/static/js/main.69bb6a8a.chunk.js.map",
+    "runtime-main.js": "/Millionaire/static/js/runtime-main.29f2329b.js",
+    "runtime-main.js.map": "/Millionaire/static/js/runtime-main.29f2329b.js.map",
+    "static/js/2.71baa5c2.chunk.js": "/Millionaire/static/js/2.71baa5c2.chunk.js",
+    "static/js/2.71baa5c2.chunk.js.map": "/Millionaire/static/js/2.71baa5c2.chunk.js.map",
+    "static/js/3.2a3be5ee.chunk.js": "/Millionaire/static/js/3.2a3be5ee.chunk.js",
+    "static/js/3.2a3be5ee.chunk.js.map": "/Millionaire/static/js/3.2a3be5ee.chunk.js.map",
+    "index.html": "/Millionaire/index.html",
+    "static/css/main.dbf421c2.chunk.css.map": "/Millionaire/static/css/main.dbf421c2.chunk.css.map",
+    "static/js/2.71baa5c2.chunk.js.LICENSE.txt": "/Millionaire/static/js/2.71baa5c2.chunk.js.LICENSE.txt",
+    "static/js/3.2a3be5ee.chunk.js.LICENSE.txt": "/Millionaire/static/js/3.2a3be5ee.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Millionaire/static/media/bg.c137ccd7.jpg",
+    "static/media/correct.160572d7.wav": "/Millionaire/static/media/correct.160572d7.wav",
+    "static/media/play.8e5f6d1d.wav": "/Millionaire/static/media/play.8e5f6d1d.wav",
+    "static/media/wait.30e329da.wav": "/Millionaire/static/media/wait.30e329da.wav",
+    "static/media/wrong.e9468218.wav": "/Millionaire/static/media/wrong.e9468218.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29f2329b.js",
+    "static/js/2.71baa5c2.chunk.js",
+    "static/css/main.dbf421c2.chunk.css",
+    "static/js/main.69bb6a8a.chunk.js"
+  ]
+}
